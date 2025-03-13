@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import questions from './questions.json'; // Adjust the path as necessary
-import ProgressBar from './ProgressBar'; // Import the ProgressBar component
-import ScoreComponent from './ScoreComponent'; // Import the ScoreComponent
+import questions from './questions.json';
+import ProgressBar from './ProgressBar'; 
+import ScoreComponent from './ScoreComponent'; 
 
 const QuizComponent = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -14,7 +14,7 @@ const QuizComponent = () => {
   const [incorrectAnswers, setIncorrectAnswers] = useState(0);
 
   useEffect(() => {
-    // Shuffle options only once when the question changes
+    // Shuffle the options only once when the question changes
     const options = [
       ...questions[currentQuestion].incorrect_answers,
       questions[currentQuestion].correct_answer,

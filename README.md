@@ -1,12 +1,22 @@
-# React + Vite
+# React Questionnaire
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based quiz application where users can attempt quizzes, track progress, and view scores.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Attempt Quizzes**: Users can take pre-defined quizzes.
+- **Progress Bar**: Displays the current progress while attempting a quiz.
+- **Score Bar**: Shows the final score after completing the quiz.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/Spiatron/react-questionare.git
+cd react-questionare
+npm install
+npm start
+```
+
+Runs the app on `http://localhost:3000/`.
+
+

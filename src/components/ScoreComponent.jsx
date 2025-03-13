@@ -13,7 +13,7 @@ const ScoreComponent = ({ currentScore, lowestPossibleScore, maximumPossibleScor
           className="absolute h-4 rounded-full"
           style={{
             width: `${maximumPossibleScore}%`,
-            backgroundColor: '#adb5bd', // Light gray for maximum possible score
+            backgroundColor: '#adb5bd',
           }}
         ></div>
         {/* Lowest Possible Score (Gray) */}
@@ -21,7 +21,7 @@ const ScoreComponent = ({ currentScore, lowestPossibleScore, maximumPossibleScor
           className="absolute h-4 rounded-full"
           style={{
             width: `${lowestPossibleScore}%`,
-            backgroundColor: '#A9A9A9', // Gray for lowest possible score
+            backgroundColor: '#A9A9A9',
           }}
         ></div>
         {/* Current Score (Black) */}
@@ -29,7 +29,7 @@ const ScoreComponent = ({ currentScore, lowestPossibleScore, maximumPossibleScor
           className="absolute h-4 rounded-full"
           style={{
             width: `${currentScore}%`,
-            backgroundColor: '#000000', // Black for current score
+            backgroundColor: '#000000',
           }}
         ></div>
       </div>
